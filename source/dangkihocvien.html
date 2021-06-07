@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>tao form</title>
+    <style>
+        .thongtin{
+            display: inline-block;
+            color: cornflowerblue;
+        }
+        .write2{
+            padding-left: 40px;
+        }
+        .h{
+            background-color: aqua ;
+            color: cornflowerblue;
+        }
+        .write1{
+            padding-inline-start: 45px;
+            color: coral;
+        }
+        .write{
+            padding-left: 27px;
+        }
+        .kc4{
+            padding-left: 90px;
+            color: coral;
+        }
+        .write3{
+            padding-left: 66px;
+        }
+        .write5{
+padding-left: 54px;
+        }
+        .write6{
+padding-left: 26px;
+        }
+    </style>
+</head>
+<body  style="background-color: cornsilk">
+
+<h1 class="h">ĐĂNG KÍ HỌC VIÊN</h1>
+
+<form>
+    <label class="thongtin">Họ và tên</label>
+    <label class="write" ><input  size="40" type="text"><br><br></label>
+    <label class="thongtin">Ngày sinh</label>
+    <label class="write" ><input size="25" type="text"><br><br></label>
+    <label class="thongtin">Giới tính</label>
+    <label class="write2"><input type="radio" id="nam" name="gender" value="Nam">
+        <label for="nam">Nam</label>
+    <input  type="radio" id="nu" name="gender" value="Nữ">
+    <label for="nu">Nữ</label>
+    </label>
+    </label> <br> <br>
+
+    <label class="thongtin">Địa chỉ</label>
+    <label class="write1" ><input size="25" type="text"><br><br></label>
+
+
+    <label class="thongtin" for="Lớp">Lớp</label>
+    <label class="write3">
+    <select  id="Lớp" name="Lớp">
+        <option value="Chọn lớp">-Chọn lớp-</option>
+        <option value="Lớp 1">Lớp 1</option>
+        <option value="Lớp 2">Lớp 2</option>
+        <option value="Lớp 3">Lớp 3</option>
+    </select>
+        </labe0>
+    <br><br>
+
+    <label class="thongtin">Email</label>
+    <label class="write5" ><input size="25" type="text"><br><br></label>
+    <label class="thongtin">Điện thoại</label>
+    <label class="write6" ><input  size="40" type="text"  name="fname"><br><br></label>
+
+
+    <div class="kc4"> <button>Đăng kí</button> <button>Nhập lại</button> </div>
+</form>
+</body>
+</html>
