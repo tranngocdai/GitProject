@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button type="button" onclick="showMessage();">Ấn để nhận 1 tỉ</button>
+<script>
+  function showMessage(){
+    alert('Có làm thì mới có ăn');
+  }
+</script>
+<div id="messageDiv"></div>
+<button type="button" onclick="showMessage();">Chạm vào tao!</button>
+<script>
+    function showMessage() {
+        document.getElementById('messageDiv').innerHTML = 'Mày ngu';
+    }
+</script>
+
+<button type="button" onclick="showMessage();">Ấn đi</button>
+<script>
+    function showMessage(){
+        document.write('Cút');
+    }
+</script>
+
+<button type="button" onclick="showMessage();">Click me</button>
+<script>
+    function showMessage(){
+        console.log('Óc chó');
+    }
+</script>
+</body>
+</html>
