@@ -20,11 +20,15 @@
 // let F = 9/5*C+32;
 // document.write('Độ F là: '+ F);
 
+//
+// let inputR;
+// inputR = prompt('Nhập bán kính');
+// let R = parseInt(inputR);
+// let S = 3.14*R*R;
+// document.write('Diện tích hình tròn là:'+S)
 
-let inputR;
-inputR = prompt('Nhập bán kính');
-let R = parseInt(inputR);
-let S = 3.14*R*R;
-document.write('Diện tích hình tròn là:'+S)
-
-
+// let inputR;
+// inputR = prompt('Nhập bán kính');
+// let R = parseInt(inputR);
+// let P = 3.14*2*R;
+// document.write('Chu vi hình tròn là:'+P)
