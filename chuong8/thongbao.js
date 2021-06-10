@@ -1,0 +1,1 @@
+function thongbao() document
