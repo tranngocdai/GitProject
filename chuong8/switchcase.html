@@ -22,20 +22,47 @@
 <!--            }-->
 <!--        </script>-->
 
-        <script>
-            var a =  parseInt(prompt('a?', ''));
-            switch (a) {
-                case 0:
-                    alert(0);
-                    break;
-                case 1:
-                    alert(1);
-                    break;
-                case 2:
-                case 3:
-                    alert('2,3');
-                    break;
-                }
-        </script>
+<!--        <script>-->
+<!--            var a =  parseInt(prompt('a?', ''));-->
+<!--            switch (a) {-->
+<!--                case 0:-->
+<!--                    alert(0);-->
+<!--                    break;-->
+<!--                case 1:-->
+<!--                    alert(1);-->
+<!--                    break;-->
+<!--                case 2:-->
+<!--                case 3:-->
+<!--                    alert('2,3');-->
+<!--                    break;-->
+<!--                }-->
+<!--        </script>-->
+
+<!--<script>-->
+<!--        let a = prompt('Nhap so', 0)-->
+<!--        if (a>0){-->
+<!--            alert(1);-->
+<!--        }else if (a<0){-->
+<!--            alert(-1);-->
+<!--        }else {-->
+<!--            alert(0)-->
+<!--        }-->
+
+<!--</script>-->
+
+<script>
+    var a = parseInt(prompt('Nhap a', 0));
+
+    switch ((a > 0) ? 1 : (a<0) ? -1 :0){
+        case 1:
+            alert(1);
+            break;
+        case -1:
+            alert(-1);
+            break;
+        default:
+            alert(0);
+    }
+</script>
 </body>
 </html>
