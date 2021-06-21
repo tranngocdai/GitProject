@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Em co yeu anh khong</h1>
+<button onclick = "ok()" type = button style="position: absolute;left: 20px;top: 100px;">Co</button>
+<button id ="chay" type = button style="position: absolute;left: 100px;top: 100px" onmouseover="chaydi()" onmouseout="vecho()">Khong</button>
+<script>
+  function chaydi(){
+    let trai = document.getElementById("chay");
+    Math.random()
+    trai.style.top = Math.floor(Math.random()*innerHeight) +50+ "px";
+    trai.style.left =Math.floor(Math.random()*innerWidth) +50+ "px";
+  }
+  function ok(){
+    alert("Xin lỗi anh đéo yêu em")
+  }
+</script>
+</body>
+</html>
