@@ -10,34 +10,34 @@
         }
 
     </style>
+    <script src="tien.js"></script>
 </head>
 <body>
 
-<div class="colum">
-    <label for="amount">Amount</label>
-    <input type="text" id="amount"   />
-</div>
-<div class="colum">
-    <label for="from">From Currency</label>
-    <select id="from">
-        <option value="1">VND</option>
-        <option value="23000">USD</option>
-    </select>
-</div>
-<div class="colum">
-    <label for="to">To Currency</label>
-    <select id="to">
-        <option value="1">VND</option>
-        <option value="23000">USD</option>
-    </select>
-</div>
-<div class="colum" >
-    <button id="soTien">Convert</button>
-</div>
-<div id="Hien">Kết quả</div>
-<script>
-
-</script>
+<table>
+    <tr style="text-align: center">
+        <td>Amount</td>
+        <td>From currency</td>
+        <td>To currency</td>
+        <td></td>
+    </tr>
+    <tr style="text-align: center">
+        <td><input type="number" id="sotien"></td>
+        <td>
+            <select name="quocgia" id="tutien">
+                <option value="vietnam">Viet Nam</option>
+                <option value="american">Hoa Ky</option>
+            </select>
+        </td>
+        <td>
+            <select name="quocgia" id="thanhtien">
+                <option value="vietnam">VND</option>
+                <option value="american">USD</option>
+            </select>
+        </td>
+        <td><button onclick="chuyendoi()">Convert</button></td>
+    </tr>
+</table>
 
 </body>
 </html>
